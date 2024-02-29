@@ -1,7 +1,7 @@
 <script>
-import Footer from "./components/Footer.vue";
-import Main from "./components/Main.vue";
-import Header from "./components/Header.vue";
+import Footer from "../components/Main/Footer.vue";
+import Main from "../components/Main/Main.vue";
+import Header from "../components/Main/Header.vue";
 export default {
   components: {
     Footer,
@@ -223,6 +223,6 @@ html {
 
 @font-face {
   font-family: "main";
-  src: url(./public/Gilroy-Medium.ttf);
+  src: url(../public/Gilroy-Medium.ttf);
 }
 </style>
