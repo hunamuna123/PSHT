@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener("scroll", checkScroll);
   // Check initially
   checkScroll();
+  
 });
 
 

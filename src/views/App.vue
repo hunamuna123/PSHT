@@ -2,11 +2,13 @@
 import Footer from "../components/Main/Footer.vue";
 import Main from "../components/Main/Main.vue";
 import Header from "../components/Main/Header.vue";
+import LoginAndAuth from "../components/Main/LoginAndAuth.vue";
 export default {
   components: {
     Footer,
     Header,
     Main,
+    LoginAndAuth,
   },
 };
 
@@ -93,9 +95,10 @@ export default {
     class="background-5"
   />
 
-  <Header />
-  <Main />
-  <Footer />
+  <Header/>
+  <Main/>
+  <Footer/>
+  <login-and-auth></login-and-auth>
 </template>
 
 <style>
