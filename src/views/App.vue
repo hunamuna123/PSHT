@@ -48,6 +48,12 @@ export default {
 
 
 <template>
+
+
+
+
+  
+
   <img
     src="https://cdn.discordapp.com/attachments/1197231307919466678/1212391377867112478/image.png?ex=65f1aa75&is=65df3575&hm=0245a844468d3b870852b78bcddd636363948c0d1221bfa07f33b409bbd090ab&"
     class="background__image"
