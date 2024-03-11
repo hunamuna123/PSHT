@@ -11,49 +11,8 @@ export default {
     LoginAndAuth,
   },
 };
-
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <template>
-
-
-
-
-  
-
   <img
     src="https://cdn.discordapp.com/attachments/1197231307919466678/1212391377867112478/image.png?ex=65f1aa75&is=65df3575&hm=0245a844468d3b870852b78bcddd636363948c0d1221bfa07f33b409bbd090ab&"
     class="background__image"
@@ -100,13 +59,12 @@ export default {
     alt=""
     class="background-5"
   />
-
   <Header/>
   <Main/>
   <Footer/>
-  <login-and-auth></login-and-auth>
+  <LoginAndAuth/>
+  <router-view></router-view>
 </template>
-
 <style>
 body,
 html {
@@ -135,11 +93,10 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  user-select: none; /* Добавлено свойство user-select */
+  user-select: none;
 }
 
 .background__image {
-  /* Group 132 */
   position: absolute;
   width: 1705px;
   height: 1705px;
@@ -150,7 +107,6 @@ html {
 }
 
 .background__image1 {
-  /* Ellipse 30 */
   position: absolute;
   width: 1236.18px;
   height: 1236.18px;
@@ -159,7 +115,6 @@ html {
   z-index: -9;
 }
 .background__image2 {
-  /* Ellipse 31 */
   position: absolute;
   width: 907.6px;
   height: 907.6px;
@@ -168,7 +123,6 @@ html {
   z-index: -8;
 }
 .background__image3 {
-  /* Ellipse 32 */
   position: absolute;
   width: 627.1px;
   height: 627.1px;
@@ -177,7 +131,6 @@ html {
   z-index: -8;
 }
 .background__image4 {
-  /* Ellipse 33 */
   position: absolute;
   width: 399.38px;
   height: 399.38px;
@@ -186,7 +139,6 @@ html {
 }
 
 .background-1 {
-  /* Ellipse 29 */
   position: absolute;
   width: 2739px;
   height: 2636px;
@@ -197,7 +149,6 @@ html {
 }
 
 .background-2 {
-  /* Ellipse 30 */
   position: absolute;
   width: 1985.86px;
   height: 1911.18px;
@@ -206,7 +157,6 @@ html {
 }
 
 .background-3 {
-  /* Ellipse 31 */
   position: absolute;
   width: 1458.01px;
   height: 1403.18px;

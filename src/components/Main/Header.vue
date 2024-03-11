@@ -65,6 +65,64 @@
 </template>
 
 <style>
+.button {
+  border: none;
+  border-radius: 34px;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button.primary {
+  color: white;
+}
+
+.button.secondary {
+  color: black;
+}
+
+.reg {
+  width: 114.5px;
+  height: 31.94px;
+  border-radius: 34px;
+  text-decoration: none;
+  color: black;
+  border: none;
+  background-color: white;
+  margin-right: 20px;
+}
+
+.login {
+  width: 114.5px;
+  height: 31.94px;
+  margin-right: 7px;
+  background-color: rgb(56, 191, 242);
+  text-decoration: none;
+  border-radius: 34px;
+  border: none;
+}
+
+.header__main {
+  position: absolute;
+  width: 638px;
+  height: 92px;
+  left: 404px;
+  top: 133px;
+}
+
+.header__btn__go {
+  position: absolute;
+  width: 321px;
+  height: 70px;
+  left: 15px;
+  top: 358px;
+  border: none;
+  border-radius: 82px;
+  background: rgb(241, 85, 37);
+  color: white;
+}
 .header__nav__container {
   position: absolute;
   width: 1705px;
@@ -83,36 +141,6 @@
 .modal-container {
   z-index: 2;
 }
-.login {
-  justify-content: center;
-  border-radius: 34px;
-  width: 114.5px;
-  height: 31.94px;
-  text-decoration: none;
-  color: white;
-  background: rgb(56, 191, 242);
-  border: none;
-  margin-right: 7px;
-}
-.reg {
-  width: 114.5px;
-  height: 31.94px;
-  border-radius: 34px;
-  text-decoration: none;
-  color: black;
-  border: none;
-  background-color: white;
-  margin-right: 20px;
-}
-/*header--main*/
-.header__main {
-  position: absolute;
-  width: 638px;
-  height: 92px;
-  left: 404px;
-  right: 876px;
-  top: 133px;
-}
 h1 {
   color: rgb(34, 37, 59);
   font-size: 46px;
@@ -125,33 +153,17 @@ h1 {
   position: absolute;
   width: 390.89px;
   height: 408.15px;
-
   right: -96.62%;
   top: 32.59%;
-  bottom: -32.59%;
 }
-
 .header__text__btn {
   position: absolute;
   width: 365.22px;
   height: 46px;
   left: 78px;
-  right: 1148.78px;
   top: 290.53px;
 }
-.header__btn__go {
-position: absolute;
-width: 321px;
-height: 70px;
-left: 15px;
-top: 358px;
-border: none;
-border-radius: 82px;
-background: rgb(241, 85, 37);
-color: white;
-
-}
 .btn {
-  background-color: rgb(56, 191, 242)!important;
+  background-color: rgb(56, 191, 242) !important;
 }
 </style>
