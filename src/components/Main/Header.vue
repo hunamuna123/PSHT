@@ -38,7 +38,8 @@
     <h1>Портал для создания школьных тестов</h1>
     <p class="header__text__btn">Готовы решать задачи?</p>
     <button class="header__btn__go">
-      Приступить                              <svg
+      <router-link to="/panel" tag="button" style="text-decoration: none; color: black;">Приступить</router-link>
+                                    <svg
         width="15.003906"
         height="15.004089"
         viewBox="0 0 15.0039 15.0041"
